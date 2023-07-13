@@ -1,0 +1,22 @@
+name: stargalaxy
+channels:
+  - pytorch
+  - conda-forge
+  - fastchan
+dependencies:
+  - python=3.10
+  - pip
+  - black
+  - pylint
+  - pytest
+  - nbqa
+  - fastai
+  - fastbook
+  - kaggle
+  - datasets
+  - ipywidgets
+  - widgetsnbextension
+  - pandas-profiling
+  - ipykernel
+  - pip:
+    - timm
